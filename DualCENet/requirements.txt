@@ -1,0 +1,51 @@
+# PyTorch 系列（需指定CUDA索引）
+torch==1.13.1
+torchvision==0.14.1
+torchaudio==0.13.1
+# 基础依赖
+packaging
+timm==0.4.12
+pytest
+chardet
+yacs
+termcolor
+submitit
+tensorboardX
+
+# 加速库
+triton==2.0.0
+# 数据科学工具
+scikit-learn
+matplotlib==3.5.3
+thop==0.1.1.post2209072238
+h5py
+SimpleITK
+scikit-image
+medpy
+
+# 图像处理
+opencv-contrib-python==4.7.0.72 # 如果与前者冲突可移除
+Pillow==9.5.0
+
+# 工具类
+joblib
+natsort
+tqdm==4.65.0
+tensorboard
+einops==0.6.1
+gdown
+addict
+future
+lmdb
+numpy
+pyyaml
+requests
+scipy==1.7.3
+yapf
+fvcore
+arch==5.3.1
+
+# 特殊依赖（需验证可用性）
+lpips==0.1.4           # 可能需要从源码安装
+image-quality==1.2.7    # 注意实际包名可能不同（疑似自定义包）
+gradio                  # 未指定版本，保持最新
